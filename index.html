@@ -1,0 +1,1592 @@
+<!DOCTYPE html>
+<html lang="id">
+  <div style="
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/01/bgweb.webp');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+"></div>
+<head>
+  
+  <link href='https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/02/favicon-fl_11zon.png' rel='icon' type='image/png'/>
+<link href='https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/02/favicon-fl_11zon.png' rel='shortcut icon' type='image/png'/>
+<link href='https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/02/favicon-fl_11zon.png' rel='apple-touch-icon'/>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv='Content-Security-Policy' content='upgrade-insecure-requests'/>
+  
+  <meta property='og:title' content='Lidya & Fariz Wedding'/>
+<meta property='og:description' content='The Wedding of Lidya & Fariz - Sabtu, 11 April 2026'/>
+<meta property='og:image' content='https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/02/favicon-fl_11zon.png'/>
+<meta property='og:image:width' content='300'/>
+<meta property='og:image:height' content='300'/>
+<meta property='og:type' content='website'/>
+<link href='https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/02/favicon-fl_11zon.png' rel='image_src'/>
+  
+    <title>Lidya & Fariz Wedding</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    
+    <style>
+      html {
+    scroll-behavior: smooth;
+}
+      /* Mencegah seleksi teks dan gambar */
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Proteksi tambahan: Gambar tidak bisa di-drag/seret */
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+    body { 
+        font-family: 'Quicksand', sans-serif; 
+        /*background-color: #fdf2f8;*/ 
+      
+     
+        overflow-x: hidden; 
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      
+      -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    }
+    .font-romantis { font-family: 'Dancing Script', cursive; }
+    .bg-soft-pink { background-color: #fce7f3; }
+    .bg-soft-blue { background-color: #e0f2fe; }
+    .text-soft-pink { color: #db2777; }
+    .text-soft-blue { color: #0284c7; }
+    
+    /* Jumbotron Slider Full Width - Optimized for Mobile */
+    .slider-container { 
+        position: relative; 
+        width: 100%; 
+        height: 60vh; /* Fallback */
+        height: 100dvh; /* Dynamic Height untuk Browser HP */
+        overflow: hidden; 
+        background-color: #000;
+    }
+    @media (min-width: 768px) { 
+        .slider-container { height: 85vh; } 
+    }
+    
+    .slide { 
+        position: absolute; 
+        inset: 0; 
+        opacity: 0; 
+        transition: opacity 1s ease-in-out; 
+        background-size: cover; 
+        background-position: center center; 
+        background-repeat: no-repeat;
+    }
+    .slide.active { opacity: 1; }
+    
+    /* Mencegah gambar di galeri pecah/gepeng */
+    #gallery-grid img, #full-gallery-grid img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    .watermark { 
+        position: absolute; bottom: 15px; right: 15px; 
+        color: rgba(255,255,255,0.9); font-size: 1rem; font-weight: bold;
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.8); z-index: 20;
+        pointer-events: none;
+    }
+    @media (min-width: 768px) { .watermark { font-size: 2rem; bottom: 30px; right: 30px; } }
+
+    /* Tombol navigasi lebih besar di HP agar mudah di-tap */
+    .nav-btn { 
+        background: rgba(0,0,0,0.3); 
+        border-radius: 50%; 
+        width: 45px; height: 45px; 
+        display: flex; align-items: center; justify-content: center; 
+        cursor: pointer; transition: 0.3s; z-index: 30; 
+        -webkit-tap-highlight-color: transparent;
+    }
+    .nav-btn:hover { background: rgba(0,0,0,0.5); }
+
+    /* Transitions & Layout */
+    .page-content { display: none; min-height: 100vh; width: 100%; }
+    .page-content.active { display: block; animation: fadeIn 0.5s ease; }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-track { background: #fdf2f8; }
+    ::-webkit-scrollbar-thumb { background: #fbcfe8; border-radius: 10px; }
+
+    /* Fix untuk input di iOS agar tidak zoom otomatis */
+    input[type="text"], input[type="password"], select {
+        font-size: 16px !important;
+    }
+      /* Animasi Tambahan */
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fadeIn { animation: fadeIn 1.5s ease-out forwards; }
+    #invitation-overlay { transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1); }
+      /* Container Frame Potrait */
+.mempelai-container { 
+    position: relative; 
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden; 
+    border-radius: 999px 999px 0 0; 
+    background-color: #f8f8f8;
+}
+
+/* Base Slide Style */
+.mempelai-slide { 
+    position: absolute; 
+    inset: 0; 
+    opacity: 0; 
+    /* Transisi opacity dibuat lebih lama (1.5s) agar halus saat menghilang/muncul */
+    transition: opacity 1.5s ease-in-out; 
+    background-size: cover; 
+    background-position: center;
+    transform: scale(1.1); /* Default sedikit zoom */
+}
+
+/* Slide Aktif */
+.mempelai-slide.active { 
+    opacity: 1; 
+    z-index: 2;
+    /* Efek Zoom perlahan saat gambar aktif */
+    animation: smoothZoom 8s linear forwards;
+}
+
+/* Slide yang baru saja digantikan tetap di bawah agar tidak langsung bolong */
+.mempelai-slide.exit {
+    opacity: 0;
+    z-index: 1;
+}
+
+/* Animasi Zoom Perlahan (Ken Burns Effect) */
+@keyframes smoothZoom {
+    from { transform: scale(1); }
+    to { transform: scale(1.15); }
+}
+
+/* Khusus Animasi Masuk dari Samping yang Halus */
+.slide-left.active { 
+    animation: smoothZoom 8s linear forwards, fadeSlideLeft 1.5s ease-out; 
+}
+.slide-right.active { 
+    animation: smoothZoom 8s linear forwards, fadeSlideRight 1.5s ease-out; 
+}
+
+@keyframes fadeSlideLeft {
+    from { opacity: 0; transform: translateX(20px) scale(1.1); }
+    to { opacity: 1; transform: translateX(0) scale(1); }
+}
+
+@keyframes fadeSlideRight {
+    from { opacity: 0; transform: translateX(-20px) scale(1.1); }
+    to { opacity: 1; transform: translateX(0) scale(1); }
+}
+      
+      /* Gaya font untuk angka tanggal agar lebih elegan */
+.font-serif {
+    font-family: 'Playfair Display', serif; /* Pastikan import font ini di head atau gunakan font serif bawaan */
+}
+
+/* Animasi muncul saat di scroll */
+.event-card {
+    transition: all 0.8s ease-out;
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.event-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+      /* Animasi wedding gift agar tidak kaku */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeIn {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+      
+      /* CSS Ucapan terimakasih */
+      #final-closing {
+    height: 100vh; /* Full layar portrait */
+}
+
+.closing-img-step {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 2s ease-in-out; /* Durasi Fade */
+    transform: scale(1.1); /* Untuk efek zoom */
+}
+
+.closing-img-step.active {
+    opacity: 1;
+    animation: slowZoom 10s linear forwards;
+}
+
+@keyframes slowZoom {
+    from { transform: scale(1); }
+    to { transform: scale(1.15); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeIn {
+    animation: fadeIn 1.5s ease-out forwards;
+}
+      
+      /* Container Jumbotron Full Screen */
+.slider-container {
+    height: 100vh;
+    width: 100%;
+}
+
+/* Slide Style */
+.jumbotron-slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 2s ease-in-out; /* Efek Fade */
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.jumbotron-slide.active {
+    opacity: 1;
+    z-index: 2;
+    animation: slowZoom 10s linear infinite; /* Efek Gerak Lambat */
+}
+
+@keyframes slowZoom {
+    from { transform: scale(1); }
+    to { transform: scale(1.1); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 1.5s ease-out forwards;
+}
+      
+      /* Pastikan Jumbotron menggunakan Flexbox untuk mengatur posisi teks */
+#jumbotron {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important; /* Mendorong teks ke atas */
+    align-items: center !important;
+}
+
+/* Animasi Muncul Halus */
+.animate-fadeIn {
+    animation: fadeInDown 1.8s ease-out forwards;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsif untuk layar HP kecil */
+@media (max-width: 380px) {
+    #jumbotron h1 {
+        font-size: 2.5rem;
+    }
+  
+/* Animasi putar yang sangat lembut */
+    .spin-music {
+        animation: rotate-music 4s linear infinite;
+    }
+
+    @keyframes rotate-music {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+  
+  /* Animasi masuk Lightbox */
+#lightbox-modal.active {
+    display: flex;
+    animation: fadeIn 0.3s ease;
+}
+
+#lightbox-img {
+    user-select: none;
+    -webkit-user-drag: none;
+}
+  
+  /* Proteksi Global untuk Gambar */
+img {
+    /* Mencegah menu pop-up 'Simpan Gambar' di HP */
+    -webkit-touch-callout: none !important; 
+    /* Mencegah seleksi gambar */
+    -webkit-user-select: none !important;
+    -khtml-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+    /* Mencegah gambar diseret */
+    -webkit-user-drag: none !important;
+    user-drag: none !important;
+    /* Menghilangkan highlight biru saat di-tap */
+    -webkit-tap-highlight-color: transparent;
+}
+}
+      /* Gaya Pita Teks 'Dengan' */
+/*.pita-dengan {
+    background-color: #D3212D;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    padding: 8px 45px;
+    font-size: 1.8rem;
+    display: inline-block;*/
+    /* Clip-path Hati Melengkung Halus */
+    /*clip-path: polygon(50% 20%, 65% 5%, 85% 5%, 100% 25%, 100% 50%, 50% 95%, 0% 50%, 0% 25%, 15% 5%, 35% 5%);
+    padding-bottom: 50px;*/ /* Menyesuaikan teks agar tepat di tengah jantung hati */
+  /* padding-top: 30px;
+    margin: 10px 0;
+}*/
+
+/*@media (min-width: 768px) {
+    .pita-dengan {
+        background: transparent;
+        clip-path: none;
+        font-size: 3rem;
+        margin: 0;
+    }
+}*/
+</style>
+  
+ 
+</head>
+<body> 
+  <audio id="wedding-music" loop>
+    <source src="https://inv.invilove.web.id/wp-content/uploads/2023/07/y2mate.com-Nothings-Gonna-Change-My-Love-For-You-George-Benson-Christian-Ama-Saxophone-Cover-1.mp3" type="audio/mpeg">
+</audio>
+
+<div id="music-control" class="fixed bottom-10 right-7 z-[9998]" style="display: none;">
+    <button onclick="toggleMusic()" 
+            id="music-btn"
+            class="w-11 h-11 bg-white/70 backdrop-blur-md rounded-full shadow-lg flex items-center justify-center text-[#D3212D] border border-white/50 transition-all active:scale-90">
+        
+        <i id="music-icon" class="fa-solid fa-music text-xl"></i>
+    </button>
+</div>
+  
+  <!--invitation section-->
+  <div id="invitation-overlay" class="fixed inset-0 z-[9999] flex items-center justify-center overflow-hidden transition-all duration-1000">
+    <div id="overlay-bg" class="absolute inset-0 bg-cover bg-center transition-transform duration-[3000ms] scale-110"></div>
+    
+   
+    
+    <div class="absolute inset-0 bg-black/40 backdrop-blur-[2px]"></div>
+
+    <div class="relative z-10 text-center text-white px-6 flex flex-col items-center">
+      
+        <p class="uppercase tracking-[0.3em] text-sm mb-4 animate-fadeIn">The Wedding of</p>
+        
+        <h2 class="text-5xl md:text-7xl font-romantis mb-8 drop-shadow-lg">Lidya & Fariz</h2>
+
+        <div class="bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/20 mb-1 w-full max-w-sm">
+            <p class="text-sm italic text-pink-100 mb-2">Kepada Yth. Bapak/Ibu/Saudara/i</p>
+            <h3 id="guest-name" class="text-2xl font-bold tracking-wide">Nama Tamu</h3>
+          <p class="text-sm italic text-pink-100 mt-2">Di Tempat</p>
+        </div>
+<div class="mb-8">
+       <p class="text-sm text-pink-100 mt-2">Mohon maaf bila ada kesalahan dalam penulisan nama, gelar dan alamat</p>
+      </div>
+      
+        <button onclick="closeInvitation()" class="group relative px-8 py-3 bg-white text-pink-600 font-bold rounded-full overflow-hidden transition-all hover:scale-105 active:scale-95 shadow-2xl">
+            <span class="relative z-10 flex items-center gap-2">
+                <i class="fa-solid fa-envelope-open"></i> BUKA UNDANGAN
+            </span>
+            <div class="absolute inset-0 bg-pink-100 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+        </button>
+    </div>
+</div>
+
+    <!-- PAGE: HOME -->
+   <div id="page-home" class="page-content active">
+    <div class="slider-container">
+        <div class="jumbotron-slide active" style="background-image: url('https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/02/jumbotron-1.jpeg');"></div>
+        <div class="jumbotron-slide" style="background-image: url('https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/02/jumbotron-3.jpeg');"></div>
+        <div class="jumbotron-slide" style="background-image: url('https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/02/jumbotron-2.jpeg');"></div>
+        <div class="relative z-30 text-white text-center pt-24 px-6 animate-fadeIn h-full flex flex-col items-center">
+            <p class="uppercase tracking-[0.3em] text-[10px] mb-2 opacity-90 font-sans">The Wedding of</p>
+            <h1 class="text-5xl md:text-7xl font-romantis mb-4" style="filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.5));">
+                Lidya & Fariz
+            </h1>
+            <p class="text-sm font-light tracking-widest border-t border-b border-white/30 inline-block py-1 px-6">
+                Sabtu, 11 April 2026
+            </p>
+            
+            <div class="absolute inset-0 flex items-center justify-between px-2 md:px-6 pointer-events-none">
+               <!-- <button onclick="prevSlide()" class="nav-btn pointer-events-auto"><i class="fa-solid fa-chevron-left text-white"></i></button>
+                <button onclick="nextSlide()" class="nav-btn pointer-events-auto"><i class="fa-solid fa-chevron-right text-white"></i></button>-->
+            </div>
+        </div>
+
+        <div class="watermark font-romantis z-20">#FareverLifewithyou</div>
+        <div class="absolute inset-0 bg-black/40 z-10"></div>
+    </div>
+</div>
+      
+      <!-- Hitung Mundur Section -->
+      <section class="max-w-full mx-auto py-12 px-6 text-center" style="background-color : rgba(10, 10, 10, 0.8); background-image: url('https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/01/bg3-1.jpg'); background-size: cover; 
+                background-position: center; background-blend-mode: multiply;">
+    <div class="flex justify-center mb-6">
+        <img src="https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/01/aset-24-1.png" alt="Floral Decoration" class="w-20 md:w-32 opacity-100">
+    </div>
+        <h2 class="text-3xl font-romantis text-white inline-block relative">Menuju Hari Bahagia</h2><br><br>
+<div class="grid grid-cols-4 gap-2 md:gap-4 max-w-2xl mx-auto">
+        <div class="bg-white p-3 md:p-6 rounded-2xl shadow-sm border border-[#C5A367]-100" style="box-shadow: 0px 5px #D3212D">
+            <span id="days" class="block text-2xl md:text-4xl font-bold text-[#D3212D]">00</span>
+            <span class="text-[10px] md:text-xs uppercase text-black-400 font-bold tracking-widest">Hari</span>
+        </div>
+        <div class="bg-white p-3 md:p-6 rounded-2xl shadow-sm border border-[#C5A367]-100" style="box-shadow: 0px 5px #D3212D">
+            <span id="hours" class="block text-2xl md:text-4xl font-bold text-[#D3212D]">00</span>
+            <span class="text-[10px] md:text-xs uppercase text-black-400 font-bold tracking-widest">Jam</span>
+        </div>
+        <div class="bg-white p-3 md:p-6 rounded-2xl shadow-sm border border-[#C5A367]-100" style="box-shadow: 0px 5px #D3212D">
+            <span id="minutes" class="block text-2xl md:text-4xl font-bold text-[#D3212D]">00</span>
+            <span class="text-[10px] md:text-xs uppercase text-black-400 font-bold tracking-widest">Menit</span>
+        </div>
+        <div class="bg-white p-3 md:p-6 rounded-2xl shadow-sm border border-[#C5A367]-100" style="box-shadow: 0px 5px #D3212D">
+            <span id="seconds" class="block text-2xl md:text-4xl font-bold text-[#D3212D]">00</span>
+            <span class="text-[10px] md:text-xs uppercase text-black-400 font-bold tracking-widest">Detik</span>
+        </div></div><br>
+    <div class="mb-10 animate-fadeIn">
+        <i class="fa-solid fa-quote-left text-white text-5xl mb-4 block"></i>
+        <p class="text-white italic leading-relaxed text-bold text-sm md:text-base px-4">
+            "Di antara tanda-tanda (kebesaran)-Nya ialah bahwa Dia menciptakan pasangan-pasangan untukmu dari (jenis) dirimu sendiri agar kamu merasa tenteram kepadanya. Dia menjadikan di antaramu rasa cinta dan kasih sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir."
+        </p>
+        <p class="font-bold text-white mt-3 uppercase tracking-widest text-xs">( QS. Ar Rum : 21)</p>
+    
+    </div>
+</section>
+      
+      <!-- Pasangan Mempelai Section -->
+      <section id="mempelai-section" class="max-w-full mx-auto py-20 px-6" style="background-color: rgba(10, 10, 10, 0.8); background-image: url('https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/01/uw20241200007_a18f8f275a988bf9d33f4b212d3f7b99.webp'); background-size: cover; 
+                background-position: center; background-blend-mode: multiply;">
+        <div class="text-center mb-10">
+        <h2 class="text-4xl font-romantis text-white inline-block relative">
+            Pasangan Mempelai
+            <div class="h-1 w-full bg-[#D3212D] absolute -bottom-2 rounded-full"></div>
+        </h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+        
+        <div class="text-center order-1">
+            <div class="relative w-64 h-80 mx-auto mb-8 border-8 border-white shadow-2xl rounded-t-full bg-pink-50 overflow-hidden">
+                <div id="mempelai-wanita-slider" class="mempelai-container"></div>
+            </div>
+            <h3 class="text-4xl font-romantis text-white">Maulidya Hidayati</h3>
+            <p class="text-sm font-bold text-gray-400 mt-3 uppercase tracking-widest">Putri Dari</p>
+            <p class="text-gray-400 font-medium">Bapak Nurul Hidayat & Ibu Neneng Kurniati</p>
+            <a href="https://www.instagram.com/maumaull" target="_blank" class="inline-block mt-4 text-[#D3212D]">
+                <i class="fa-brands fa-instagram fa-2xl"></i> <span class="font-bold text-sm">@maumaull</span>
+            </a>
+        </div>
+
+        <div class="text-center order-2 flex justify-center items-center">
+            <div class="pita-dengan"></div>
+        </div>
+
+        <div class="text-center order-3">
+            <div class="relative w-64 h-80 mx-auto mb-8 border-8 border-white shadow-2xl rounded-t-full bg-blue-50 overflow-hidden">
+                <div id="mempelai-pria-slider" class="mempelai-container"></div>
+            </div>
+            <h3 class="text-4xl font-romantis text-white">Fariz Fadhlillah</h3>
+            <p class="text-sm font-bold text-gray-400 mt-3 uppercase tracking-widest">Putra Dari</p>
+            <p class="text-gray-400 font-medium">Bapak Muslih & Ibu Hasunah</p>
+            <a href="https://www.instagram.com/inifarizbukan" target="_blank" class="inline-block mt-4 text-[#D3212D]">
+                <i class="fa-brands fa-instagram fa-2xl"></i> <span class="font-bold text-sm">@inifarizbukan</span>
+            </a>
+        </div>
+
+    </div>
+</section>
+      
+      <!-- Waktu Akad dan Resepsi Section -->
+      <section class="max-w-full mx-auto py-20 px-6">
+    <div class="border-4 border-white rounded-t-full p-2">
+        <div class="rounded-t-full py-16 px-6 text-center shadow-inner border border-gray-100 bg-[url('https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/01/uw20241200007_6d51c38e87816ccb717d4bda397d3a04.webp')] bg-cover bg-center bg-no-repeat bg-blend-overlay bg-black/75">
+
+            <div class="mb-16">
+                <h2 class="text-4xl md:text-5xl font-romantis text-white mb-8">Akad Nikah</h2>
+              
+                <div class="flex justify-center items-center gap-4 text-white mb-6">
+                    <div class="text-xl md:text-2xl font-bold uppercase tracking-widest border-r-2 border-gray-300 pr-4">April</div>
+                    <div class="text-center">
+                        <p class="text-sm font-bold uppercase tracking-tighter">Sabtu</p>
+                        <p class="text-5xl md:text-6xl font-serif font-bold">11</p>
+                        <p class="text-xs font-bold mt-1">09.00 WIB s/d Selesai</p>
+                    </div>
+                    <div class="text-xl md:text-2xl font-bold border-l-2 border-gray-300 pl-4">2026</div>
+                </div>
+
+                <div class="mb-8">
+                    <h3 class="text-xl font-bold text-white mb-2">Lokasi Acara</h3>
+                    <p class="text-white/80 text-sm leading-relaxed max-w-xs mx-auto">
+                        Dasana Indah Blok UB 11 No. 9A, Kel. Bojong Nangka, Kec. Kelapa Dua, Kab. Tangerang
+                    </p>
+                </div>
+
+                <a href="https://maps.app.goo.gl/dUWZFtzXLPBd7gj89?g_st=ipc" target="_blank" 
+                   class="inline-flex items-center gap-2 bg-[#D3212D] text-white px-8 py-3 rounded-xl font-bold shadow-lg hover:bg-[#D3212DBF] transition">
+                    <i class="fa-solid fa-location-arrow"></i> BUKA MAPS
+                </a>
+            </div>
+
+            <hr class="w-2/3 mx-auto border-gray-300 mb-16">
+
+            <div>
+                <h2 class="text-4xl md:text-5xl font-romantis text-white mb-8">Resepsi</h2>
+                
+                <div class="flex justify-center items-center gap-4 text-white mb-6">
+                    <div class="text-xl md:text-2xl font-bold uppercase tracking-widest border-r-2 border-gray-300 pr-4">April</div>
+                    <div class="text-center">
+                        <p class="text-sm font-bold uppercase tracking-tighter">Sabtu</p>
+                        <p class="text-5xl md:text-6xl font-serif font-bold">11</p>
+                        <p class="text-xs font-bold mt-1">12.00 WIB s/d Selesai</p>
+                    </div>
+                    <div class="text-xl md:text-2xl font-bold border-l-2 border-gray-300 pl-4">2026</div>
+                </div>
+
+                <div class="mb-8">
+                    <h3 class="text-xl font-bold text-white mb-2">Lokasi Acara</h3>
+                    <p class="text-white/80 text-sm leading-relaxed max-w-xs mx-auto">
+                        Dasana Indah Blok UB 11 No. 9A, Kel. Bojong Nangka, Kec. Kelapa Dua, Kab. Tangerang
+                    </p>
+                </div>
+
+                <a href="https://maps.app.goo.gl/dUWZFtzXLPBd7gj89?g_st=ipc" target="_blank" 
+                   class="inline-flex items-center gap-2 bg-[#D3212D] text-white px-8 py-3 rounded-xl font-bold shadow-lg hover:[#D3212DBF] transition">
+                    <i class="fa-solid fa-location-arrow"></i> BUKA MAPS
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+        <!-- Gallery Section -->
+       <section id="galeri-foto" class="max-w-full mx-auto py-12 px-4">
+    <div class="text-center mb-10">
+        <h2 class="text-4xl font-romantis text-white inline-block relative">
+            Our Gallery
+            <div class="h-1 w-full bg-[#D3212D] absolute -bottom-2 rounded-full"></div>
+        </h2>
+    </div>
+    
+    <div id="gallery-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 md:gap-6">
+        
+      <!-- Merah Hitam -->
+        <div class="aspect-square overflow-hidden rounded-2xl shadow-sm">
+            <img src="https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/02/our-gallery-foto-3.jpeg" class="w-full h-full object-cover">
+        </div>
+      
+      <!-- Merah Hitam -->
+      <div class="aspect-square overflow-hidden rounded-2xl shadow-sm">
+            <img src="https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/02/our-gallery-foto-10.jpeg" class="w-full h-full object-cover">
+        </div>
+      
+      <!-- Merah Hitam -->
+      <div class="aspect-square overflow-hidden rounded-2xl shadow-sm">
+            <img src="https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/02/our-gallery-foto-6.jpeg" class="w-full h-full object-cover">
+        </div>
+       
+      <!-- Merah Hitam -->
+      <div class="aspect-square overflow-hidden rounded-2xl shadow-sm">
+            <img src="https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/02/our-gallery-foto-7.jpeg" class="w-full h-full object-cover">
+        </div>
+      
+      <!-- Merah Hitam -->
+      <div class="aspect-square overflow-hidden rounded-2xl shadow-sm">
+            <img src="https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/02/our-gallery-foto-5.jpeg" class="w-full h-full object-cover">
+        </div>
+      
+      <!-- Hitam Putih -->
+        <div class="aspect-square overflow-hidden rounded-2xl shadow-sm">
+            <img src="https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/02/our-gallery-foto-1.jpeg" class="w-full h-full object-cover">
+        </div>
+      
+      <!-- Hitam Putih -->
+      <div class="aspect-square overflow-hidden rounded-2xl shadow-sm">
+            <img src="https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/02/our-gallery-foto-4.jpeg" class="w-full h-full object-cover">
+        </div>
+      
+      <!-- Hitam Putih -->
+      <div class="aspect-square overflow-hidden rounded-2xl shadow-sm">
+            <img src="https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/02/our-gallery-foto-9.jpeg" class="w-full h-full object-cover">
+        </div>
+      
+      <!-- Hitam Putih -->
+      <div class="aspect-square overflow-hidden rounded-2xl shadow-sm">
+            <img src="https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/02/our-gallery-foto-2.jpeg" class="w-full h-full object-cover">
+        </div>
+     
+      <!-- Hitam Putih -->
+      <div class="aspect-square overflow-hidden rounded-2xl shadow-sm">
+            <img src="https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/02/our-gallery-foto-8.jpeg" class="w-full h-full object-cover">
+        </div>
+
+        </div>
+</section>
+      
+      <!-- Wedding Gift Section -->
+      <section id="gift-section"class="max-w-full mx-auto py-16 px-4 text-center">
+        
+         
+        
+    <div class="rounded-3xl p-8 mb-10 shadow-xl border border-gray-700 bg-[url('https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/01/uw20241200007_6d51c38e87816ccb717d4bda397d3a04.webp')] bg-cover bg-center bg-no-repeat bg-blend-overlay bg-black/60">
+      
+     
+      
+        <h2 class="text-4xl font-romantis text-white mb-4">Wedding Gift</h2>
+      
+        <p class="text-white/80 text-sm mb-8 leading-relaxed">
+            Tanpa mengurangi rasa hormat, bagi anda yang ingin memberikan tanda kasih untuk kami, dapat melalui:
+        </p>
+      
+      
+      
+        <button onclick="toggleGift()" class="bg-[#D3212D] text-white px-10 py-3 rounded-full font-bold shadow-lg hover:bg-[#D3212DBF] transition flex items-center gap-2 mx-auto">
+            <i class="fa-solid fa-gift text-white"></i> KLIK DISINI
+        </button>
+      
+    </div>
+
+    <div id="gift-container" class="hidden space-y-6 animate-fadeIn">
+        
+      <!-- Salin norek BCA Fariz -->
+        <div class="max-w-sm mx-auto rounded-3xl p-6 shadow-2xl border border-gray-100 relative overflow-hidden group bg-cover bg-center" style="background-image: url('https://inv.invilove.web.id/wp-content/uploads/2024/02/bg-rekening.webp');">
+            <div class="flex justify-end mb-4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Bank_Central_Asia.svg" class="h-6 object-contain">
+            </div>
+            <div class="text-left mb-6">
+                <img src="https://hi.invilove.id/wp-content/uploads/2024/02/chip-atmm.png" 
+         class="w-10 h-auto mb-4 object-contain" 
+         alt="Chip ATM">
+                <p class="text-gray-400 text-xs uppercase font-bold tracking-widest">a.n</p>
+                <p class="text-lg font-bold text-gray-700 mb-2">Fariz Fadhlillah</p>
+                <p id="norek-bca" class="text-2xl font-mono font-bold text-gray-800 tracking-wider">2870412137</p>
+            </div>
+            <button onclick="copyToClipboard('norek-bca')" class="w-full bg-gray-100 text-gray-600 py-3 rounded-xl font-bold hover:bg-[#F7A8B8] hover:text-white transition flex items-center justify-center gap-2">
+                <i class="fa-solid fa-copy"></i> Salin Nomor
+            </button>
+        </div>
+
+      <!-- Salin norek BCA Lidya -->
+        <div class="max-w-sm mx-auto rounded-3xl p-6 shadow-2xl border border-gray-100 relative overflow-hidden group bg-cover bg-center" style="background-image: url('https://inv.invilove.web.id/wp-content/uploads/2024/02/bg-rekening.webp');">
+            <div class="flex justify-end mb-4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Bank_Central_Asia.svg" class="h-6 object-contain">
+            </div>
+            <div class="text-left mb-6">
+                <img src="https://hi.invilove.id/wp-content/uploads/2024/02/chip-atmm.png" 
+         class="w-10 h-auto mb-4 object-contain" 
+         alt="Chip ATM">
+                <p class="text-gray-400 text-xs uppercase font-bold tracking-widest">a.n</p>
+                <p class="text-lg font-bold text-gray-700 mb-2">Maulidya Hidayati</p>
+                <p id="norek-dana" class="text-2xl font-mono font-bold text-gray-800 tracking-wider">4971806855</p>
+            </div>
+            <button onclick="copyToClipboard('norek-dana')" class="w-full bg-gray-100 text-gray-600 py-3 rounded-xl font-bold hover:bg-[#F7A8B8] hover:text-white transition flex items-center justify-center gap-2">
+                <i class="fa-solid fa-copy"></i> Salin Nomor
+            </button>
+        </div>
+      
+      <!-- Salin alamat kirim hadiah -->
+      <div class="max-w-sm mx-auto rounded-3xl p-6 shadow-2xl border border-gray-100 relative overflow-hidden group bg-cover bg-center">
+            <div class="flex justify-end mb-4">
+                
+            </div>
+            <div class="text-center mb-6">
+                <img src="https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/01/kirim-hadiah.png" 
+         class="w-10 h-auto mb-4 object-contain block mx-auto" 
+         alt="Kirim hadiah">
+                
+                <p class="text-lg font-bold text-white mb-2 text-center">Kirim Hadiah</p>
+                <p id="kirim-hadiah" class="text-2xl  text-white tracking-wider text-center">Dasana Indah Blok UB 11 No. 9A, Kel. Bojong Nangka, Kec. Kelapa Dua, Kab. Tangerang</p>
+            </div>
+            <button onclick="copyToClipboard('kirim-hadiah')" class="w-full bg-gray-100 text-gray-600 py-3 rounded-xl font-bold hover:bg-gray hover:text-[#333] transition flex items-center justify-center gap-2">
+                <i class="fa-solid fa-copy"></i> Salin Alamat
+            </button>
+        </div>
+
+      
+    </div>
+</section>
+      
+       <!-- Ucapan Section -->
+      <section id="ucapan-section" class="max-w-full mx-auto py-16 px-4">
+    <div class="text-center mb-10">
+        <h2 class="text-4xl font-romantis text-white inline-block relative">
+            Ucapan Untuk Kami
+            <div class="h-1 w-full bg-[#D3212D] absolute -bottom-2 rounded-full"></div>
+        </h2>
+        
+    </div>
+
+    <div class="bg-white p-6 rounded-3xl shadow-sm border border-pink-100 mb-10">
+      <p id="wish-counter" class="text-xs text-center italic bg-[#D3212D80] mt-6 font-bold uppercase tracking-widest py-2 px-4 rounded-full text-white shadow-sm inline-block mx-auto">
+            Memuat data ucapan...
+        </p><br><br>
+        <div class="grid grid-cols-1 gap-4 mb-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <input type="text" id="wish-name" placeholder="Nama Anda" class="border-2 border-black-50 p-3 rounded-xl focus:border-pink-300 outline-none transition text-sm">
+                
+            <textarea id="wish-text" rows="2" placeholder="Tuliskan doa atau pesan manis untuk kami..." class="w-full border-2 border-black-50 p-3 rounded-xl focus:border-pink-300 outline-none transition text-sm"></textarea>
+              
+              <div class="flex items-center justify-around bg-gray-50 rounded-xl px-2">
+                    <label class="flex items-center gap-1 cursor-pointer text-[11px] font-bold text-gray-500">
+                        <input type="radio" name="attendance" value="Hadir" checked class="accent-[#00FF7F]"> Hadir
+                    </label>
+                    <label class="flex items-center gap-1 cursor-pointer text-[11px] font-bold text-gray-500">
+                        <input type="radio" name="attendance" value="Tidak Hadir" class="accent-[#D3212D]"> Tidak Hadir
+                    </label>
+                    <label class="flex items-center gap-1 cursor-pointer text-[11px] font-bold text-gray-500">
+                        <input type="radio" name="attendance" value="Ragu-ragu" class="accent-[#FFFF00]"> Ragu
+                    </label>
+                </div>
+            </div>
+            
+            <button onclick="sendWish()" id="btn-send-wish" class="bg-[#D3212D] text-white font-bold py-3 rounded-xl hover:bg-[#D3212DBF] transition shadow-md shadow-pink-100">Kirim Ucapan ✨</button>
+        </div>
+    </div>
+
+    <div id="wishes-container" class="space-y-4"></div>
+
+    <div class="flex justify-center items-center gap-6 mt-8">
+        <button onclick="prevWishPage()" class="text-[#D3212D] disabled:text-gray-300 transition"><i class="fa-solid fa-circle-arrow-left fa-2xl"></i></button>
+        <span id="wish-page-info" class="font-bold text-gray-400 text-sm italic uppercase tracking-widest">Halaman 1</span>
+        <button onclick="nextWishPage()" class="text-[#D3212D] disabled:text-gray-300 transition"><i class="fa-solid fa-circle-arrow-right fa-2xl"></i></button>
+    </div>
+</section>
+      
+      <!-- Ucapan terimakasih Section -->
+      <section id="final-closing" class="relative w-full h-screen overflow-hidden flex flex-col justify-end pb-20 px-6 text-center">
+    
+    <div id="closing-bg-container" class="absolute inset-0 z-0">
+        </div>
+
+    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10"></div>
+
+    <div class="relative z-20 text-white animate-fadeIn">
+        <h2 class="text-5xl font-romantis mb-4" style="filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.5));">Terima Kasih</h2>
+        
+        <p class="text-sm md:text-base leading-relaxed mb-6 max-w-md mx-auto font-light italic">
+            Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila Bapak/Ibu/Saudara/i, berkenan hadir dan memberikan do'a restu kepada kami.
+        </p>
+        
+        <h3 class="text-4xl font-romantis mb-2" style="filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.5));">Lidya & Fariz</h3>
+        
+        <div class="flex justify-center items-center gap-4 mt-4">
+            <div class="h-[1px] w-12 bg-white/50"></div>
+            <i class="fa-solid fa-heart text-white/80 animate-pulse"></i>
+            <div class="h-[1px] w-12 bg-white/50"></div>
+        </div>
+    </div>
+</section>
+       
+  <!-- Navbar Bawah Melayang -->
+  <!--<div class="fixed bottom-6 left-1/2 -translate-x-1/2 z-[100] w-[90%] max-w-md">
+    <nav class="bg-white/80 backdrop-blur-lg border border-white/50 shadow-2xl rounded-2xl px-6 py-3 flex justify-between items-center">
+        
+        <a href="#galeri-foto" class="flex flex-col items-center gap-1 group decoration-0">
+            <i class="fa-solid fa-file-image text-xl text-blue-500 group-hover:scale-110 transition-transform"></i>
+            <span class="text-[10px] font-bold text-gray-500 uppercase tracking-tighter">Galeri Foto</span>
+        </a>
+
+        <a href="#ucapan-section" class="flex flex-col items-center gap-1 group decoration-0">
+            <i class="fa-solid fa-heart-circle-check text-xl text-pink-500 group-hover:scale-110 transition-transform"></i>
+            <span class="text-[10px] font-bold text-gray-500 uppercase tracking-tighter">Ucapan</span>
+        </a>
+
+        <a href="#mempelai-section" class="flex flex-col items-center gap-1 group decoration-0">
+            <i class="fa-solid fa-heart-pulse text-xl text-pink-500 group-hover:scale-110 transition-transform"></i>
+            <span class="text-[10px] font-bold text-gray-500 uppercase tracking-tighter">Mempelai</span>
+        </a>
+      
+      <a href="#gift-section" class="flex flex-col items-center gap-1 group decoration-0">
+            <i class="fa-solid fa-box-open text-xl text-blue-500 group-hover:scale-110 transition-transform"></i>
+            <span class="text-[10px] font-bold text-gray-500 uppercase tracking-tighter">Gift</span>
+        </a>
+        
+    </nav>
+</div>-->
+  
+  
+    <!-- PAGE: FULL GALLERY -->
+    <div id="page-full-gallery" class="page-content">
+        <div class="max-w-7xl mx-auto py-12 px-4">
+            <button onclick="showPage('home')" class="mb-8 text-pink-500 font-bold flex items-center gap-2">
+                <i class="fa-solid fa-arrow-left"></i> Kembali ke Beranda
+            </button>
+            <h2 class="text-4xl font-romantis text-center mb-10 text-soft-pink">Semua Koleksi Kenangan</h2>
+            <div id="full-gallery-grid" class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4"></div>
+        </div>
+    </div>
+
+   
+    <!-- Firebase Scripts -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
+        import { getFirestore, doc, getDoc, setDoc, onSnapshot, collection, addDoc, deleteDoc, updateDoc } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+        import { getAuth, signInAnonymously } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
+      
+      const G_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzTYpHEHsRu9RUrIUl5kauj11AP4KiA4vB0m74DdscyHULLnzslCirfmFTo1TVDwApEVA/exec";
+
+        // Konfigurasi Firebase
+        const firebaseConfig = {
+  apiKey: "AIzaSyBkJhKCgD4g5UzcOK2EQ_j4pmQ-53y1EQs",
+  authDomain: "dbadminfalinlovee.firebaseapp.com",
+  databaseURL: "https://dbadminfalinlovee-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "dbadminfalinlovee",
+  storageBucket: "dbadminfalinlovee.firebasestorage.app",
+  messagingSenderId: "186308715532",
+  appId: "1:186308715532:web:c8cfdf740d89cc4510ba29",
+  measurementId: "G-DVFTSXSRHR"
+};
+
+        const app = initializeApp(firebaseConfig);
+        const db = getFirestore(app);
+        const auth = getAuth(app);
+        const appId = "farever-wedding";
+
+        // APP STATE
+        let slides = [];
+        let gallery = [];
+        let files = [];
+        let settings = { 
+            adminPass: 'admin123', 
+            filePass: 'berkas123',
+            siteName: 'FareverLifewithyou',
+            logo: 'https://via.placeholder.com/150/pink/fff?text=FL'
+        };
+        let currentSlideIndex = 0;
+      let wishes = [];
+let currentWishPage = 0;
+const wishesPerPage = 3;
+
+        // AUTH & INIT
+        signInAnonymously(auth).then(() => {
+            console.log("Koneksi Firebase Berhasil");
+            initListeners();
+        });
+
+        const initListeners = () => {
+            onSnapshot(doc(db, "artifacts", appId, "public", "settings"), (docSnap) => {
+                if (docSnap.exists()) {
+                    settings = docSnap.data();
+                    applySettings();
+                } else {
+                    setDoc(doc(db, "artifacts", appId, "public", "settings"), settings);
+                }
+            });
+
+            onSnapshot(collection(db, "artifacts", appId, "public", "data", "slides"), (snapshot) => {
+                slides = snapshot.docs.map(d => ({id: d.id, ...d.data()}));
+                renderSlides();
+            });
+
+           /* onSnapshot(collection(db, "artifacts", appId, "public", "data", "gallery"), (snapshot) => {
+                gallery = snapshot.docs.map(d => ({id: d.id, ...d.data()}));
+                renderGallery();
+            }); */
+
+            onSnapshot(collection(db, "artifacts", appId, "public", "data", "files"), (snapshot) => {
+                files = snapshot.docs.map(d => ({id: d.id, ...d.data()}));
+                renderFiles();
+            });
+          onSnapshot(collection(db, "artifacts", appId, "public", "data", "wishes"), (snapshot) => {
+    wishes = snapshot.docs.map(d => ({id: d.id, ...d.data()})).sort((a,b) => b.createdAt - a.createdAt);
+    renderWishes();
+});
+        };
+
+        // RENDERING
+        const renderSlides = () => {
+            const container = document.getElementById('jumbotron');
+ 
+        const watermark = `<div class="watermark-top absolute top-10 left-1/2 -translate-x-1/2 z-[100] text-black opacity-50 pointer-events-none text-center w-full">
+        <div style="font-family: 'Times New Roman', serif; font-size: 14px; letter-spacing: 4px; text-transform: uppercase; margin-bottom: 5px;">
+            The Wedding Of
+        </div>
+        <div class="font-romantis" style="font-size: 45px; text-shadow: 2px 2px 8px rgba(0,0,0,0.5);margin-bottom: 5px;">
+            Lidya & Fariz
+        </div>
+      
+        
+        <div style="font-family: sans-serif; font-size: 12px; letter-spacing: 3px; border-top: 1px solid rgba(0,0,0,0.3); border-bottom: 1px solid rgba(0,0,0,0.3); display: inline-block; padding-top: 5px; margin-top: 5px; padding-bottom: 5px;">
+            SABTU, 11 APRIL 2026
+        </div>
+      
+      </div>
+      
+      
+
+        
+        <div class="watermark font-romantis">#FareverLifewithyou</div>`;
+            const nav = `<div class="absolute inset-0 flex items-center justify-between px-4 z-10">
+                
+            </div>`;
+            
+            let slidesHtml = slides.map((s, i) => `
+                <div class="slide ${i === 0 ? 'active' : ''}" style="background-image: url('${s.url}');"></div>
+            `).join('');
+            
+            if (slides.length === 0) {
+                slidesHtml = `<div class="slide active bg-soft-pink flex items-center justify-center text-pink-400 font-romantis text-3xl">Selamat Datang</div>`;
+            }
+
+            container.innerHTML = slidesHtml + watermark + nav;
+            currentSlideIndex = 0;
+
+            document.getElementById('admin-slides-list').innerHTML = slides.map(s => `
+                <div class="flex justify-between items-center bg-white p-2 rounded-lg border text-[10px] shadow-sm">
+                    <img src="${s.url}" class="w-10 h-10 object-cover rounded mr-2">
+                    <span class="truncate flex-grow">${s.url.substring(0,30)}...</span>
+                    <button onclick="deleteContent('slides', '${s.id}')" class="text-red-400 p-2"><i class="fa-solid fa-circle-xmark fa-lg"></i></button>
+                </div>
+            `).join('');
+        };
+
+       /* const renderGallery = () => {
+            const homeGrid = document.getElementById('gallery-grid');
+            const fullGrid = document.getElementById('full-gallery-grid');
+            
+            const items = gallery.map(g => `
+                <div class="aspect-square overflow-hidden rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 cursor-pointer group">
+                    <img src="${g.url}" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                </div>
+            `).join('');
+
+            fullGrid.innerHTML = items;
+            homeGrid.innerHTML = gallery.slice(0, 10).map(g => `
+                <div class="aspect-square overflow-hidden rounded-2xl shadow-sm">
+                    <img src="${g.url}" class="w-full h-full object-cover">
+                </div>
+            `).join('');
+
+            document.getElementById('btn-more-photos').style.display = gallery.length > 10 ? 'inline-block' : 'none';
+
+            document.getElementById('admin-gallery-list').innerHTML = gallery.map(g => `
+                <div class="flex justify-between items-center bg-white p-2 rounded-lg border text-[10px] shadow-sm">
+                    <img src="${g.url}" class="w-10 h-10 object-cover rounded mr-2">
+                    <span class="truncate flex-grow">${g.url.substring(0,30)}...</span>
+                    <button onclick="deleteContent('gallery', '${g.id}')" class="text-red-400 p-2"><i class="fa-solid fa-circle-xmark fa-lg"></i></button>
+                </div>
+            `).join('');
+        };*/
+
+      // FUNGSI RENDER UCAPAN
+window.renderWishes = () => {
+    const container = document.getElementById('wishes-container');
+    const adminList = document.getElementById('admin-wishes-list');
+    const counterDisplay = document.getElementById('wish-counter');
+    const start = currentWishPage * wishesPerPage;
+    const paginatedWishes = wishes.slice(start, start + wishesPerPage);
+    
+    // Update Counter
+    if (counterDisplay) {
+        counterDisplay.innerText = `${wishes.length} Ucapan`;
+    }
+  
+// Tampilan di Beranda
+    container.innerHTML = paginatedWishes.length ? paginatedWishes.map(w => `
+        <div class="bg-white p-5 rounded-2xl border-l-4 border-[#D3212D] shadow-sm animate-fadeIn">
+            <div class="flex justify-between items-start mb-2">
+                <p class="text-gray-700 italic text-sm">"${w.text}"</p>
+                <span class="text-[9px] px-2 py-1 rounded-full ${w.attendance === 'Hadir' ? 'bg-green-100 text-green-600' : 'bg-gray-100 text-gray-500'} font-bold">
+                    ${w.attendance || 'Hadir'}
+                </span>
+            </div>
+            <div class="flex items-center gap-2">
+                <div class="w-6 h-6 bg-[#D3212D40] rounded-full flex items-center justify-center text-[10px] text-[#D3212D] font-bold">${w.name.charAt(0)}</div>
+                <span class="font-bold text-gray-800 text-xs">${w.name}</span>
+            </div>
+        </div>
+    `).join('') : `<p class="text-center text-gray-400 italic">Belum ada ucapan...</p>`;
+  
+  // Navigasi Info
+    const totalPages = Math.ceil(wishes.length / wishesPerPage);
+    document.getElementById('wish-page-info').innerText = `Halaman ${currentWishPage + 1} dari ${totalPages || 1}`;
+
+   
+};
+
+// NAVIGASI
+window.nextWishPage = () => {
+    if ((currentWishPage + 1) * wishesPerPage < wishes.length) {
+        currentWishPage++;
+        renderWishes();
+    }
+};
+window.prevWishPage = () => {
+    if (currentWishPage > 0) {
+        currentWishPage--;
+        renderWishes();
+    }
+};
+
+// KIRIM UCAPAN
+window.sendWish = async () => {
+    const name = document.getElementById('wish-name').value;
+    const text = document.getElementById('wish-text').value;
+    const attendance = document.querySelector('input[name="attendance"]:checked').value;
+    const btn = document.getElementById('btn-send-wish');
+
+    if(!name || !text) return alert("Mohon isi nama dan pesan Anda");
+
+    btn.disabled = true;
+    btn.innerText = "Mengirim...";
+
+    try {
+        await addDoc(collection(db, "artifacts", appId, "public", "data", "wishes"), {
+            name: name,
+            text: text,
+            attendance: attendance,
+            createdAt: Date.now()
+        });
+        document.getElementById('wish-name').value = "";
+        document.getElementById('wish-text').value = "";
+        alert("Terima kasih atas ucapan dan konfirmasinya! ❤️");
+    } catch (e) {
+        alert("Gagal mengirim ucapan.");
+    } finally {
+        btn.disabled = false;
+        btn.innerText = "Kirim Ucapan ✨";
+    }
+};
+
+
+        // LOGIC HELPERS
+        window.nextSlide = () => {
+            const slidesElements = document.querySelectorAll('.slide');
+            if (slidesElements.length < 2) return;
+            slidesElements[currentSlideIndex].classList.remove('active');
+            currentSlideIndex = (currentSlideIndex + 1) % slidesElements.length;
+            slidesElements[currentSlideIndex].classList.add('active');
+        };
+
+        window.prevSlide = () => {
+            const slidesElements = document.querySelectorAll('.slide');
+            if (slidesElements.length < 2) return;
+            slidesElements[currentSlideIndex].classList.remove('active');
+            currentSlideIndex = (currentSlideIndex - 1 + slidesElements.length) % slidesElements.length;
+            slidesElements[currentSlideIndex].classList.add('active');
+        };
+
+        setInterval(nextSlide, 10000);
+
+        
+
+        // Upload to Base64 (Untuk upload file langsung)
+        const getBase64 = (file) => {
+            return new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.readAsDataURL(file);
+                reader.onload = () => resolve(reader.result);
+                reader.onerror = error => reject(error);
+            });
+        };
+      
+      // Fungsi untuk mengecilkan ukuran gambar secara otomatis
+const compressImage = (file, maxWidth = 1200, quality = 0.7) => {
+    return new Promise((resolve) => {
+        const reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onload = (event) => {
+            const img = new Image();
+            img.src = event.target.result;
+            img.onload = () => {
+                const canvas = document.createElement('canvas');
+                let width = img.width;
+                let height = img.height;
+
+                // Hitung rasio agar gambar tidak gepeng
+                if (width > maxWidth) {
+                    height = (maxWidth / width) * height;
+                    width = maxWidth;
+                }
+
+                canvas.width = width;
+                canvas.height = height;
+                const ctx = canvas.getContext('2d');
+                ctx.drawImage(img, 0, 0, width, height);
+
+                // Mengubah ke Base64 dengan kompresi kualitas
+                // Support semua format karena outputnya akan dikonversi ke jpeg/webp yang ringan
+                const dataUrl = canvas.toDataURL('image/jpeg', quality);
+                resolve(dataUrl);
+            };
+        };
+    });
+};
+
+      // 1. Matikan Klik Kanan (Context Menu)
+document.addEventListener('contextmenu', (e) => {
+    e.preventDefault();
+}, false);
+
+      
+      // Mencegah klik kanan khusus pada gambar agar tidak bisa "Save Image As"
+document.querySelectorAll('img').forEach(img => {
+    img.oncontextmenu = function() { return false; };
+});
+      
+      
+      // 3. Tambahan proteksi untuk elemen gambar yang baru muncul (dinamis)
+    document.addEventListener('dragstart', function(e) {
+        if (e.target.nodeName === "IMG") {
+            e.preventDefault();
+        }
+    }, false);
+      
+      // FUNGSI LOGIC UNTUK UNDANGAN
+    document.addEventListener('DOMContentLoaded', () => {
+        // 1. Ambil Nama Tamu dari URL (?to=Nama+Tamu)
+        const urlParams = new URLSearchParams(window.location.search);
+        const guest = urlParams.get('to');
+        if (guest) {
+            document.getElementById('guest-name').innerText = guest;
+        }
+
+        // 2. Ambil Foto Background dari Slides Jumbotron (Data Admin)
+        // Kita gunakan interval sebentar agar Firebase selesai loading data
+        const checkData = setInterval(() => {
+            const overlayBg = document.getElementById('overlay-bg');
+            // Jika admin sudah upload slide, ambil slide pertama jadi background
+            if (typeof slides !== 'undefined' && slides.length > 0) {
+                overlayBg.style.backgroundImage = `url('${slides[0].url}')`;
+                overlayBg.classList.remove('scale-110'); // Animasi zoom out perlahan
+                overlayBg.classList.add('scale-100');
+                clearInterval(checkData);
+            } else {
+                // Background default jika belum ada slide
+                overlayBg.style.backgroundImage = "url('https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/01/mlp0600711.jpg')";
+            }
+        }, 500);
+        
+        // Mencegah scroll saat popup muncul
+        document.body.style.overflow = 'hidden';
+    });
+
+      // Variabel Global untuk Musik
+ const audio = document.getElementById('wedding-music');
+    const musicCtrl = document.getElementById('music-control');
+    const musicIcon = document.getElementById('music-icon');
+    let isPlaying = false;
+
+    // Fungsi dijalankan saat klik "BUKA UNDANGAN"
+    function playMusic() {
+        if (audio) {
+            audio.play().then(() => {
+                isPlaying = true;
+                musicCtrl.style.display = 'flex'; // Munculkan tombol di pojok
+                musicIcon.classList.add('spin-music');
+            }).catch(e => console.log("Autoplay diblokir browser, menunggu interaksi user."));
+        }
+    }
+
+    // Fungsi Toggle Play/Pause
+    window.toggleMusic = function() {
+    const musicIcon = document.getElementById('music-icon'); // Pastikan ID ini sesuai
+    if (isPlaying) {
+        audio.pause();
+        musicIcon.classList.remove('spin-music', 'fa-music');
+        musicIcon.classList.add('fa-music');
+        musicIcon.style.opacity = '0.6';
+    } else {
+        audio.play();
+        musicIcon.classList.add('spin-music', 'fa-music');
+        musicIcon.classList.remove('fa-music');
+        musicIcon.style.opacity = '1';
+    }
+    isPlaying = !isPlaying;
+};
+
+    // Fungsi Buka Undangan Anda (Satukan dengan yang sudah ada)
+    window.closeInvitation = function() {
+        const overlay = document.getElementById('invitation-overlay');
+        if (overlay) {
+            overlay.classList.add('opacity-0', 'invisible', 'scale-150');
+            document.body.style.overflow = 'auto';
+            setTimeout(() => { overlay.style.display = 'none'; }, 1000);
+        }
+        
+        playMusic(); // Trigger musik otomatis
+    };
+        
+      // Pengaturan Waktu Pernikahan (Silakan ubah tanggal ini)
+const weddingDate = new Date("Apr 11, 2026 09:00:00").getTime();
+
+const countdownTimer = setInterval(function() {
+    const now = new Date().getTime();
+    const distance = weddingDate - now;
+
+    // Perhitungan waktu
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Update elemen HTML
+    document.getElementById("days").innerHTML = days < 10 ? "0" + days : days;
+    document.getElementById("hours").innerHTML = hours < 10 ? "0" + hours : hours;
+    document.getElementById("minutes").innerHTML = minutes < 10 ? "0" + minutes : minutes;
+    document.getElementById("seconds").innerHTML = seconds < 10 ? "0" + seconds : seconds;
+
+    // Jika waktu habis
+    if (distance < 0) {
+        clearInterval(countdownTimer);
+        document.getElementById("days").innerHTML = "00";
+        document.getElementById("hours").innerHTML = "00";
+        document.getElementById("minutes").innerHTML = "00";
+        document.getElementById("seconds").innerHTML = "00";
+    }
+}, 1000);
+      
+      // Data Foto Mempelai (Silahkan ganti URL dengan link foto Anda)
+const fotoWanita = [
+    "https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/02/whatsapp-image-2026-02-06-at-06.09.23.jpeg",
+    "https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/02/whatsapp-image-2026-02-06-at-06.09.21.jpeg",
+    "https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/02/whatsapp-image-2026-02-06-at-06.09.20.jpeg"
+];
+
+const fotoPria = [
+    "https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/01/mlp06114.jpg",
+    "https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/01/mlp05866.jpg",
+    "https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/01/mlp06108.jpg"
+];
+
+const initMempelaiSliders = () => {
+    const renderSlider = (id, photos, animationClass) => {
+        const container = document.getElementById(id);
+        container.innerHTML = photos.map((url, i) => `
+            <div class="mempelai-slide ${animationClass} ${i === 0 ? 'active' : ''}" style="background-image: url('${url}')"></div>
+        `).join('');
+    };
+
+    renderSlider('mempelai-wanita-slider', fotoWanita, 'slide-left');
+    renderSlider('mempelai-pria-slider', fotoPria, 'slide-right');
+
+    const rotate = (id) => {
+    const slides = document.querySelectorAll(`#${id} .mempelai-slide`);
+    if (slides.length <= 1) return; // Jangan putar jika foto cuma 1
+
+    let current = 0;
+    slides.forEach((s, i) => { 
+        if(s.classList.contains('active')) current = i; 
+    });
+    
+    // Slide lama menjadi exit
+    slides[current].classList.remove('active');
+    slides[current].classList.add('exit');
+    
+    // Slide baru menjadi aktif
+    let next = (current + 1) % slides.length;
+    slides[next].classList.remove('exit');
+    slides[next].classList.add('active');
+    
+    // Hapus class exit setelah durasi transisi selesai (1.5 detik)
+    setTimeout(() => {
+        slides.forEach((s, i) => {
+            if (i !== next) s.classList.remove('exit');
+        });
+    }, 1500);
+};
+
+    setInterval(() => {
+        rotate('mempelai-wanita-slider');
+        rotate('mempelai-pria-slider');
+    }, 4000);
+};
+
+// Panggil fungsi ini di dalam initListeners atau setelah DOM Load
+initMempelaiSliders();
+      
+      // Efek Scroll Reveal Sederhana
+const observerOptions = { threshold: 0.2 };
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+        }
+    });
+}, observerOptions);
+
+document.querySelectorAll('.event-card').forEach(el => observer.observe(el));
+      
+// Fungsi Menampilkan/Menyembunyikan Kartu
+window.toggleGift = () => {
+    const container = document.getElementById('gift-container');
+    if (container.classList.contains('hidden')) {
+        container.classList.remove('hidden');
+        window.scrollTo({
+            top: container.offsetTop - 100,
+            behavior: 'smooth'
+        });
+    } else {
+        container.classList.add('hidden');
+    }
+};
+
+// Fungsi Salin Nomor Rekening
+window.copyToClipboard = (elementId) => {
+    const text = document.getElementById(elementId).innerText;
+    navigator.clipboard.writeText(text).then(() => {
+        // Notifikasi Sederhana
+        alert("Berhasil disalin: " + text);
+    }).catch(err => {
+        console.error('Gagal menyalin: ', err);
+    });
+};
+      
+      // Konfigurasi Link Foto untuk Background Bergerak Ucapan Terimakasih
+const linkFotoClosing = [
+    "https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/02/thanks-for-givinggg.jpg"
+    /*"https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/01/bg5.jpg",
+    "https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/01/bg4.jpg",
+    "https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/01/bg3.jpg",
+    "https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/01/bg2.jpg",
+    "https://fareverlifewithyou-yzpcx.wordpress.com/wp-content/uploads/2026/01/bg1.jpg"*/
+];
+
+const startClosingSlideshow = () => {
+    const bgContainer = document.getElementById('closing-bg-container');
+    
+    // Render elemen gambar
+    bgContainer.innerHTML = linkFotoClosing.map((url, i) => `
+        <div class="closing-img-step ${i === 0 ? 'active' : ''}" 
+             style="background-image: url('${url}');">
+        </div>
+    `).join('');
+
+    let currentIdx = 0;
+    const allSlides = document.querySelectorAll('.closing-img-step');
+
+    if (allSlides.length <= 1) return;
+
+    setInterval(() => {
+        // Hapus active dari gambar sekarang
+        allSlides[currentIdx].classList.remove('active');
+        
+        // Pindah ke index selanjutnya
+        currentIdx = (currentIdx + 1) % allSlides.length;
+        
+        // Tambahkan active ke gambar baru
+        allSlides[currentIdx].classList.add('active');
+    }, 6000); // Ganti gambar setiap 6 detik
+};
+
+// Jalankan fungsi
+startClosingSlideshow();
+      
+      
+      // Jalankan fungsi jumbotron-slide
+      let currentJumbo = 0;
+
+// Fungsi untuk mengganti slide
+const rotateJumbotron = () => {
+    const jumboSlides = document.querySelectorAll('.jumbotron-slide');
+    if (jumboSlides.length <= 1) return;
+
+    jumboSlides[currentJumbo].classList.remove('active');
+    currentJumbo = (currentJumbo + 1) % jumboSlides.length;
+    jumboSlides[currentJumbo].classList.add('active');
+};
+
+// Jalankan otomatis setiap 5 detik
+setInterval(rotateJumbotron, 5000);
+
+// Pastikan saat data Firebase disuntikkan, HTML-nya seperti ini:
+// container.innerHTML = slides.map((s, i) => `
+//    <div class="jumbotron-slide ${i === 0 ? 'active' : ''}" style="background-image: url('${s.url}')"></div>
+// `).join('');
+      
+      
+     // Gunakan objek untuk mengisolasi variabel agar tidak bentrok dengan script lain
+    const GaleriInvi = {
+        currentIndex: 0,
+        images: [],
+        interval: null,
+        duration: 5000,
+
+        init() {
+            const modal = document.getElementById('lightbox-modal');
+            if (!modal) return;
+
+            // Daftarkan event klik untuk tombol navigasi secara internal
+            const closeBtn = modal.querySelector('button[onclick="closeLightbox()"]');
+            const prevBtn = modal.querySelector('button[onclick="changeLightboxSlide(-1)"]');
+            const nextBtn = modal.querySelector('button[onclick="changeLightboxSlide(1)"]');
+
+            // Hapus atribut onclick bawaan agar tidak konflik
+            if(closeBtn) { closeBtn.removeAttribute('onclick'); closeBtn.addEventListener('click', () => this.close()); }
+            if(prevBtn) { prevBtn.removeAttribute('onclick'); prevBtn.addEventListener('click', () => this.changeSlide(-1)); }
+            if(nextBtn) { nextBtn.removeAttribute('onclick'); nextBtn.addEventListener('click', () => this.changeSlide(1)); }
+
+            // Ambil gambar gallery (tunggu 2 detik jika gambar di-load via Firebase/Script)
+            setTimeout(() => {
+                const imgNodes = document.querySelectorAll('#gallery-grid img');
+                this.images = Array.from(imgNodes).map(img => img.src);
+                
+                imgNodes.forEach((img, idx) => {
+                    img.style.cursor = 'pointer';
+                    img.addEventListener('click', () => this.open(idx));
+                });
+            }, 2500);
+        },
+
+        open(idx) {
+            this.currentIndex = idx;
+            const modal = document.getElementById('lightbox-modal');
+            modal.classList.add('active');
+            modal.style.display = 'flex'; // Paksa tampil
+            this.updateImage();
+            this.startTimer();
+            document.body.style.overflow = 'hidden';
+        },
+
+        close() {
+            const modal = document.getElementById('lightbox-modal');
+            modal.classList.remove('active');
+            modal.style.display = 'none'; // Sembunyikan kembali
+            clearInterval(this.interval);
+            document.body.style.overflow = 'auto';
+        },
+
+        changeSlide(dir) {
+            this.currentIndex = (this.currentIndex + dir + this.images.length) % this.images.length;
+            this.updateImage();
+            this.startTimer();
+        },
+
+        updateImage() {
+            const imgElement = document.getElementById('lightbox-img');
+            const progress = document.getElementById('lightbox-progress');
+            
+            imgElement.style.opacity = '0';
+            setTimeout(() => {
+                imgElement.src = this.images[this.currentIndex];
+                imgElement.style.opacity = '1';
+                
+                if(progress) {
+                    progress.style.transition = 'none';
+                    progress.style.width = '0%';
+                    setTimeout(() => {
+                        progress.style.transition = `width ${this.duration}ms linear`;
+                        progress.style.width = '100%';
+                    }, 50);
+                }
+            }, 200);
+        },
+
+        startTimer() {
+            clearInterval(this.interval);
+            this.interval = setInterval(() => this.changeSlide(1), this.duration);
+        }
+    };
+
+    // Jalankan inisialisasi
+    document.addEventListener('DOMContentLoaded', () => {
+        GaleriInvi.init();
+    });
+
+    // Support Keyboard
+    document.addEventListener('keydown', (e) => {
+        const modal = document.getElementById('lightbox-modal');
+        if (modal && modal.classList.contains('active')) {
+            if (e.key === "Escape") GaleriInvi.close();
+            if (e.key === "ArrowRight") GaleriInvi.changeSlide(1);
+            if (e.key === "ArrowLeft") GaleriInvi.changeSlide(-1);
+        }
+    });
+      
+      
+      // Fitur Auto-Pause saat pindah tab
+    document.addEventListener("visibilitychange", function() {
+    const audio = document.getElementById('wedding-music');
+    const musicIcon = document.getElementById('music-icon');
+    
+    if (document.hidden) {
+        audio.pause();
+        // Ubah ikon ke slash saat tab ditinggalkan
+        musicIcon.classList.remove('fa-music');
+        musicIcon.classList.add('fa-music');
+    } else {
+        if (musicIcon.classList.contains('spin-music')) {
+            audio.play().then(() => {
+                // Kembalikan ikon ke normal jika musik lanjut berputar
+                musicIcon.classList.add('fa-music');
+                musicIcon.classList.remove('fa-music');
+            }).catch(error => {
+                console.log("Autoplay dicegah browser.");
+            });
+        }
+    }
+});
+    </script>
+  
+  <div id="lightbox-modal" class="fixed inset-0 z-[10000] hidden bg-black/95 backdrop-blur-sm flex flex-col items-center justify-center">
+    <button onclick="closeLightbox()" class="absolute top-5 right-5 text-white text-3xl z-[10001] hover:text-gray-300">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <button onclick="changeLightboxSlide(-1)" class="absolute left-4 top-1/2 -translate-y-1/2 text-white/50 hover:text-white text-3xl z-[10001] p-4">
+        <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <button onclick="changeLightboxSlide(1)" class="absolute right-4 top-1/2 -translate-y-1/2 text-white/50 hover:text-white text-3xl z-[10001] p-4">
+        <i class="fa-solid fa-chevron-right"></i>
+    </button>
+
+    <div class="relative w-full h-full flex items-center justify-center p-4 md:p-12">
+        <img id="lightbox-img" src="" class="max-w-full max-h-full object-contain shadow-2xl transition-opacity duration-500" alt="Gallery Preview">
+    </div>
+
+    <div class="absolute bottom-0 left-0 h-1 bg-[#D3212D] transition-all duration-[5000ms] ease-linear" id="lightbox-progress" style="width: 0%"></div>
+</div>
+
+</body>
+</html>
